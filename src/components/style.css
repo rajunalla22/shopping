@@ -1,0 +1,63 @@
+
+.page{
+  /* background-image: 
+    url("https://images.unsplash.com/photo-1600414428654-bdee5b7af614?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80"); */
+  /* font-family: 'Courier New', Courier, monospace; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(255, 85, 0);
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(169, 172, 168);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+  }
+  label {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  
+  
+  .card {
+    color: black;
+    width: 416px;
+    border: 2px solid rgb(1, 1, 1);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 10px 10px 5px 12px rgb(109, 112, 113);
+    background-image: 
+      url("https://images.unsplash.com/photo-1600414428654-bdee5b7af614?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80");
+    
+  }
+
+  .submit{
+    background-color: rgb(245, 209, 29) ;
+    
+  }
+
+  .errors{
+    color: red;
+  }
